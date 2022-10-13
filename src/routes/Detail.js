@@ -22,8 +22,8 @@ function Detail() {
           <h3>{title}</h3>
           <h5>{year}</h5>
           <ul>
-            {genres.map((gen) => (
-              <li>{gen}</li>
+            {genres.map((gen, index) => (
+              <li key={index}>{gen}</li>
             ))}
           </ul>
           <p>{summary}</p>

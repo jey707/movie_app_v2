@@ -16,3 +16,12 @@
 .navigation a:first-child {
   border-bottom: 1px solid #e5e5e5;
 }
+@media (max-width: 670px) {
+  .rab {
+    padding: 112px 90px;
+  }
+  .navigation {
+    left: 50%;
+    top: 10px;
+  }
+}

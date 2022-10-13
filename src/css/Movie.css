@@ -41,6 +41,7 @@
 }
 .movie__data .movie__genres {
   display: flex;
+  flex-wrap: wrap;
 }
 .movie__data .genres__genre {
   margin-right: 10px;
@@ -52,5 +53,15 @@
 @media (max-width: 1110px) {
   .movies {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 670px) {
+  .movies .movie {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movies .movie > img {
+    margin-left: 0;
   }
 }

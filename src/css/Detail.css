@@ -15,6 +15,7 @@
 }
 .detail .detail_data {
   padding: 0 20px;
+  width: 100%;
 }
 .detail .detail_data h3 {
   font-size: 26px;
@@ -28,6 +29,7 @@
 }
 .detail .detail_data ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .detail .detail_data ul li:not(:first-child) {
   margin-left: 8px;
@@ -48,5 +50,18 @@
   }
   .detail img {
     margin-bottom: 28px;
+  }
+}
+@media (max-width: 480px) {
+  .detail img {
+    max-width: 120px;
+    max-height: 210px;
+  }
+  .detail .detail_data h3 {
+    font-size: 19px;
+  }
+  .detail .detail_data h5,
+  .detail .detail_data ul {
+    font-size: 12px;
   }
 }
