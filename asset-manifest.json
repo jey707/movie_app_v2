@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie_app_v2/static/css/main.0d873dcc.css",
+    "main.js": "/movie_app_v2/static/js/main.1bcfeb93.js",
+    "index.html": "/movie_app_v2/index.html",
+    "main.0d873dcc.css.map": "/movie_app_v2/static/css/main.0d873dcc.css.map",
+    "main.1bcfeb93.js.map": "/movie_app_v2/static/js/main.1bcfeb93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d873dcc.css",
+    "static/js/main.1bcfeb93.js"
+  ]
+}
