@@ -1,0 +1,18 @@
+.navigation {
+  position: fixed;
+  background-color: #fff;
+  width: 80px;
+  left: 18px;
+  text-align: center;
+  border-radius: 8px;
+}
+.navigation a {
+  display: block;
+  height: 30px;
+  line-height: 1.8;
+  color: rgb(5, 31, 115);
+  font-weight: 300;
+}
+.navigation a:first-child {
+  border-bottom: 1px solid #e5e5e5;
+}
